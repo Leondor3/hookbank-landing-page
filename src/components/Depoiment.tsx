@@ -8,13 +8,13 @@ export function Depoiment() {
         <section className="relative w-full py-16 max-sm:px-6 md:py-20 lg:py-28 overflow-hidden">
             <div className="container">
                 <div className="flex flex-col items-start space-y-8">
-                    <div className="flex items-center mb-16">
+                    <div className="flex items-center mb-16 max-md:flex-col max-md:items-start">
                         <div className="w-[550px]">
                             <SectionTitle title="What people are saying about us" />
                         </div>
                         <p className="text-white/60">Everything you need to accept card payments and grow your business anywhere on the planet.</p>
                     </div>
-                    <div className="grid  grid-cols-3 gap-4 max-xl:grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 w-full justify-center">
+                    <div className="grid  grid-cols-3 gap-4 max-xl:grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 w-full justify-center">
                         <div className="-z-10 absolute right-0 top-1/2 h-[288px] w-[526px] -translate-y-1/2 translate-x-1/2 rounded-full bg-[#2563eb] opacity-20 blur-[375px]" />
                         <div className="-z-10 absolute -left-48 top-1/2 h-[288px] w-[526px] -translate-y-1/2 translate-x-1/2 rounded-full bg-[#2563eb] opacity-20 blur-[375px]" />
                         <div className="bg-card-gradient shadow-md p-8 rounded-xl space-y-4">

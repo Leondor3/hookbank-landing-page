@@ -12,7 +12,7 @@ export function Footer() {
                     </div>
                     <div className='w-1/2 max-md:w-full max-lg:w-full'>
 
-                        <div className='grid grid-cols-3 max-sm:grid-cols-2 max-sm:gap-12'>
+                        <div className='grid grid-cols-3 max-sm:grid-cols-2 max-sm:gap-12 text-left'>
                             <div>
                                 <span className='text-white font-bold'>Useful Links</span>
                                 <nav className='mt-8 flex items-start gap-4 flex-col'>
