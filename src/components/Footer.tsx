@@ -12,7 +12,7 @@ export function Footer() {
                     </div>
                     <div className='w-1/2 max-md:w-full max-lg:w-full'>
 
-                        <div className='grid grid-cols-3'>
+                        <div className='grid grid-cols-3 max-sm:grid-cols-2 max-sm:gap-12'>
                             <div>
                                 <span className='text-white font-bold'>Useful Links</span>
                                 <nav className='mt-8 flex items-start gap-4 flex-col'>
@@ -37,19 +37,19 @@ export function Footer() {
                                 <span className='text-white font-bold'>Community</span>
                                 <nav className='mt-8 flex items-start gap-4 flex-col'>
                                     <li>
-                                        <a className='text-white/60' href="">Content</a>
+                                        <a className='text-white/60' href="">Help Center</a>
                                     </li>
                                     <li>
-                                        <a className='text-white/60' href="">Content</a>
+                                        <a className='text-white/60' href="">Partners</a>
                                     </li>
                                     <li>
-                                        <a className='text-white/60' href="">Content</a>
+                                        <a className='text-white/60' href="">Suggestions</a>
                                     </li>
                                     <li>
-                                        <a className='text-white/60' href="">Content</a>
+                                        <a className='text-white/60' href="">Blog</a>
                                     </li>
                                     <li>
-                                        <a className='text-white/60' href="">Content</a>
+                                        <a className='text-white/60' href="">Newsletters</a>
                                     </li>
                                 </nav>
                             </div>
@@ -57,19 +57,10 @@ export function Footer() {
                                 <span className='text-white font-bold'>Partner</span>
                                 <nav className='mt-8 flex items-start gap-4 flex-col'>
                                     <li>
-                                        <a className='text-white/60' href="">Content</a>
+                                        <a className='text-white/60' href="">Newsletters</a>
                                     </li>
                                     <li>
-                                        <a className='text-white/60' href="">Content</a>
-                                    </li>
-                                    <li>
-                                        <a className='text-white/60' href="">Content</a>
-                                    </li>
-                                    <li>
-                                        <a className='text-white/60' href="">Content</a>
-                                    </li>
-                                    <li>
-                                        <a className='text-white/60' href="">Content</a>
+                                        <a className='text-white/60' href="">Become a Partner</a>
                                     </li>
                                 </nav>
                             </div>

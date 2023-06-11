@@ -7,7 +7,7 @@ export function CallAction() {
                         <h1 className="text-white text-4xl font-bold">Let’s try our service now!</h1>
                         <p className="text-white/60 w-96 max-sm:w-60">Everything you need to accept card payments and grow your business anywhere on the planet.</p>
                     </div>
-                    <button className="bg-text-gradient px-4 py-4 rounded-md max-sm:w-full">Get Started</button>
+                    <button className="bg-text-gradient px-4 py-4 rounded-md">Get Started</button>
                 </div>
             </div>
         </section>

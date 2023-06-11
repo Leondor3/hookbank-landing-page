@@ -4,7 +4,7 @@ export function FooterBottom() {
     return (
         <div>
             <div className="container">
-                <div className="flex items-center justify-between w-full mt-8 max-sm:flex-col max-sm:gap-12">
+                <div className="flex items-center justify-between w-full mt-8 max-sm:flex-col max-sm:gap-12 max-sm:justify-center">
                     <div className="flex row-auto gap-4">
                         <h1 className="text-white/60">Copyright</h1>
                         <span className="text-white/60">&copy;</span>
